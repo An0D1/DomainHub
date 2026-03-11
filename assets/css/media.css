@@ -1,0 +1,97 @@
+@media screen and (max-width: 1280px) {
+	main {
+		width: 95%;
+		margin: 100px auto;
+	}
+
+	.navbar {
+		width: 95%;
+	}
+
+	.main__title h1 {
+		font-size: 48px;
+		width: 100%;
+	}
+
+	.main__search-bar input {
+		width: 100%;
+	}
+
+	.main__search-bar button {
+		right: 0;
+		border-radius: 20px;
+		width: 120px;
+	}
+
+	.main__popular-domain__cards,
+	.special__cards {
+		justify-content: center;
+		gap: 20px;
+	}
+
+	.main__popular-domain__item,
+	.special__item {
+		width: 45%;
+	}
+
+	.faq__item {
+		width: 100%;
+		height: auto;
+		padding: 20px;
+	}
+
+	.contact__form {
+		flex-direction: column;
+		padding: 30px;
+	}
+
+	.text-form p {
+		width: 100%;
+	}
+
+	form input,
+	textarea {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.navbar__btns {
+		display: none;
+	}
+
+	.main__title {
+		width: 100%;
+	}
+
+	.main__choose p {
+		width: 100%;
+	}
+
+	.about__items,
+	.work__item,
+	.reviews__item {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.reviews__cards {
+		gap: 20px;
+	}
+
+	.special__item,
+	.main__popular-domain__item {
+		width: 100%;
+	}
+
+	.contact__form__response {
+		width: 100%;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation: none !important;
+		transition: none !important;
+	}
+}
